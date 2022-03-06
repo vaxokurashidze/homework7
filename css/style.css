@@ -61,7 +61,9 @@ button{
     display:flex;
     align-items: center;
     justify-content:space-around;
-
+}
+button:hover{
+	background-color: green;
 }
 .box2{
 	width: 801px;
@@ -71,4 +73,37 @@ button{
 	display:flex;
 	align-items: flex-end;
 	justify-content: space-around;
+}
+.container1{
+	display:flex;
+	align-items:center;
+	flex-direction: column;
+	margin-top:200px;
+	margin-bottom:px;
+}
+.div1{
+	font-size: 20px;
+	font-family:lato, sans-serif;
+	color: #3D37F1;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+.div2{
+	font-size: 40px;
+	font-family:lato, sans-serif;
+	font-weight:bold;
+	color: #5A5454;
+	margin-bottom:20px;
+}
+.div3{
+	font-size: 18px;
+	font-family:roboto, sans-serif;
+	color: #747474;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 712px;
+	height: 85px;
+	word-spacing: 3px;
+	line-height: 25px;
+
 }
