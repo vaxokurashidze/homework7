@@ -48,15 +48,15 @@ h3{
 	margin-top:30px;
 	margin-bottom:80px;
 }
-button{
+.button{
     background-color:#3D37F1;
     color: #FFFFFF;
     text-align: center;
     font-size:15px;
     font-family: 'Poppins', sans-serif;
-    width:183.67px;
-    height:56.77px;
-    border-radius: 38%;
+    width: 135px;
+	  height: 45px;
+    border-radius:50px;
     border-style: none;
     display:flex;
     align-items: center;
@@ -105,5 +105,76 @@ button:hover{
 	height: 85px;
 	word-spacing: 3px;
 	line-height: 25px;
+}
+.container2 {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:center;
+}
 
+.img1{
+	margin-bottom: 60px;
+}
+.m1{
+	width: 370px;
+	margin: 8px;
+	background-color: #FBBA77;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 120px;
+}
+.m1:nth-child(2) {
+	background-color: #41EAE3;
+
+}
+.m1:nth-child(3) {
+	background-color: #69529F;
+
+}
+.m1:nth-child(4) {
+	background-color: #4386D2;
+
+}
+.m1:nth-child(5) {
+	background-color: #A5A2F6;
+
+}
+.m1:nth-child(6) {
+	background-color: #FF8088;
+
+}
+
+
+.text1{
+	width: 150px;
+	color: #FFFFFF;
+	font-size: 22px;
+	font-family:lato, sans-serif;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.text2{
+	width: 328px;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family:roboto, sans-serif;
+	line-height: 25px;
+}
+.text3{
+	width: 131px;
+	height: 45px;
+	background-color: transparent;
+	color:#FFFFFF; 
+	border-radius:50px;
+	border: 2px solid white;
+	text-align: center;
+	font-size: 15px;
+	font-family:roboto, sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
 }
